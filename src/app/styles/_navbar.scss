@@ -1,21 +1,35 @@
 .header-nav {
+  background: transparent !important;
   .brand-name {
+    color: whitesmoke;
     font-size: xx-large;
     font-family: "Pacifico", cursive !important;
+    &:hover,
+    &:focus {
+      color: #29a19c !important;
+      transition: color 0.3s ease-in-out;
+    }
+  }
+  .navbar-toggler {
+    border-color: #ffff;
+    &-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
   }
   .slash {
-    color: rgba(0, 0, 0, 0.5);
+    color: #29a19c;
+    font-family: "Courier Prime", monospace !important;
     padding: 0.5rem;
-    font-size: large;
-    border: 2px solid transparent;
+    font-size: 17px;
   }
   .nav-link {
-    font-size: large;
-    font-family: "Rubik", sans-serif !important;
-    border: 2px solid transparent;
-    &:hover {
-      border-bottom: 2px solid #5ca9fb;
-      transition: border-bottom 0.2s ease-in-out;
+    color: white !important;
+    font-size: 17px;
+    font-family: "Courier Prime", monospace !important;
+    &:hover,
+    &:focus {
+      color: #29a19c !important;
+      transition: color 0.3s ease-in-out;
     }
   }
 }

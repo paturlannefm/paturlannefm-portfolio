@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <main>
       <div>
-        <p style={{ color: variables.primaryColor }}>My portfolio</p>
         <NavbarComponent />
         <Cover />
         {/*
