@@ -34,7 +34,12 @@ const NavbarComponent = () => {
             <Nav.Link className="px-3" href="#contact">
               Contact
             </Nav.Link>
-            <Nav.Link className="px-3" href="#" target="_blank">
+            <Nav.Link
+              className="px-3"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/15SeYYPEyzM0kxhG1UCV32BEVVcEk5xOn/view?usp=sharing"
+              target="_blank"
+            >
               <Button variant="outline-success" className="button">
                 Resume
               </Button>

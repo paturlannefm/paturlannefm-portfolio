@@ -1,17 +1,19 @@
-import variables from "../variables.module.scss";
 import "../styles/styles.scss";
 
 import Cover from "../components/Cover";
 import NavbarComponent from "../components/Navbar";
 import About from "../components/About";
+import WorkExperience from "../components/WorkExperience";
 
 export default function Home() {
   return (
     <main>
-      <div>
+      <div className="app">
         <NavbarComponent />
         <Cover />
         <About />
+        <WorkExperience />
+
         {/*
       <Navbar/>
       <Cover/>

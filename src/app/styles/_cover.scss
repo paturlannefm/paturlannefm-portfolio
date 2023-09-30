@@ -1,5 +1,9 @@
 .bg-div {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(
+      0deg,
+      rgba(11, 11, 13, 0.5),
+      rgba(11, 11, 13, 0.6)
+    ),
     url("../../../public/img/backgroud-1.png");
 
   background-attachment: fixed;
