@@ -2,22 +2,23 @@ import React from "react";
 
 const About = () => {
   return (
-    <div style={{ background: "#0b0b0d", color: "white" }} className="main-div">
+    <div
+      style={{ background: "#0b0b0d", color: "white" }}
+      className="main-div"
+      id="about"
+    >
       <section className="div-1 about">
         <h1 className="heading">About Me</h1>
         <div>
           <p className="text mt-4 mb-3">
-            Hello! I&apos;m Franco, a Systems Engineer, software development
-            enthusiast, and competitive coder from Argentina.
+            Hello! I&apos;m Franco, software development enthusiast, and
+            competitive coder from Argentina.
           </p>
           <p className="text my-3">
-            I&apos;m a third year undergraduate pursuing{" "}
-            <span style={{ color: "#63c9c6" }}>Mathematics and Computing</span>{" "}
-            from <span style={{ color: "#63c9c6" }}>IIT(ISM) Dhanbad</span>. I
-            enjoy designing and creating beautiful web application / website and
-            anything in between. I seek and enjoy stuff that challenges me and
-            makes me think out of the box. My main goal is to be able to build
-            useful, sleek, and efficient products.
+            I&apos;m an Information Systems Engineer with a passion for
+            designing and developing sleek and efficient web applications. My
+            main goal is to build useful digital solutions that solve real-world
+            problems and make an impact.
           </p>
         </div>
         <p className="text mt-3">
@@ -25,7 +26,7 @@ const About = () => {
         </p>
         <div className="skills-box">
           <ul className="lists">
-            {["React/Redux", "Firebase"].map((text) => {
+            {["React", "Next", "Typescript", "JavaScript"].map((text) => {
               return (
                 <li className="my-2 list-item" key={text}>
                   {text}
@@ -34,7 +35,13 @@ const About = () => {
             })}
           </ul>
           <ul className="lists">
-            {["SCSS", "Material UI"].map((text) => {
+            {[
+              "Styled Components",
+              "SCSS",
+              "Tailwind",
+              "Material UI",
+              "CSS",
+            ].map((text) => {
               return (
                 <li className="my-2 list-item" key={text}>
                   {text}

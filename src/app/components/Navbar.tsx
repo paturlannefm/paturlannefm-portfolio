@@ -25,10 +25,10 @@ const NavbarComponent = () => {
             <Nav.Link className="px-3" href="#about">
               About
             </Nav.Link>
-            <Nav.Link className="px-3" href="#experience">
+            <Nav.Link className="px-3" href="#work">
               Experience
             </Nav.Link>
-            <Nav.Link className="px-3" href="#projects">
+            <Nav.Link className="px-3" href="#project">
               Projects
             </Nav.Link>
             <Nav.Link className="px-3" href="#contact">
