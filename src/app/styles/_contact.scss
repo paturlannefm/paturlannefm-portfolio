@@ -1,3 +1,5 @@
+@import "../variables.module.scss";
+
 .contact-div {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("../../../public/img/bg-2.jpg");
@@ -22,17 +24,17 @@
         text-align: center;
       }
       .button {
-        color: #29a19c;
+        color: $secondary-color;
         padding: 10px 20px;
-        border-color: #29a19c;
+        border-color: $secondary-color;
         &:hover,
         &:focus,
         &:active {
           outline: none !important;
           box-shadow: none !important;
           background-color: transparent !important;
-          color: #63c9c6 !important;
-          border-color: #63c9c6 !important;
+          color: $primary-color !important;
+          border-color: $primary-color !important;
           transition: all 0.3 ease-in-out;
         }
       }

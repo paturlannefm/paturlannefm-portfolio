@@ -1,3 +1,5 @@
+@import "../variables.module.scss";
+
 .timeline {
   list-style: none;
   padding: 20px;
@@ -51,7 +53,7 @@
       top: 18px;
       left: -21px;
       margin-left: -25px;
-      background-color: rgb(66, 164, 160);
+      background-color: $secondary-color;
       border: 3px solid #f2f3f7;
       z-index: 100;
       border-top-right-radius: 50%;
@@ -59,7 +61,7 @@
       border-bottom-right-radius: 50%;
       border-bottom-left-radius: 50%;
       &:hover {
-        background-color: #63c9c6;
+        background-color: $primary;
         transition: all 0.3 ease-in-out;
       }
       .glyphicon {

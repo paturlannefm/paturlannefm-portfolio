@@ -1,3 +1,5 @@
+@import "../variables.module.scss";
+
 .about {
   .text {
     max-width: 950px;
@@ -18,7 +20,7 @@
           left: 0;
           line-height: 11px;
           font-size: 10px;
-          color: #63c9c6;
+          color: $primary;
         }
       }
     }

@@ -1,3 +1,5 @@
+@import "../variables.module.scss";
+
 .bg-div {
   background: linear-gradient(
       0deg,
@@ -28,7 +30,7 @@
       &-first-text {
         font-family: "Courier Prime", monospace;
         font-size: 18px !important;
-        color: #63c9c6;
+        color: $primary-color;
         padding-left: 5px;
       }
       &-second-text,
@@ -37,7 +39,7 @@
         padding: 0 !important;
       }
       &-third-text {
-        color: #bae8e8 !important;
+        color: $secondary-color !important;
       }
       &-fourth-text {
         max-width: 500px;
@@ -128,7 +130,7 @@
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
         cursor: pointer;
         &:hover {
-          color: #29a19c;
+          color: $secondary-color;
         }
       }
       &-link {

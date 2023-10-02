@@ -1,3 +1,5 @@
+@import "../variables.module.scss";
+
 .header-nav {
   background: transparent;
   transition: all 0.5s ease;
@@ -8,7 +10,7 @@
     font-family: "Pacifico", cursive !important;
     transition: all 0.5s ease;
     &:hover {
-      color: #29a19c !important;
+      color: $secondary-color !important;
       transition: color 0.3s ease-in-out;
     }
     &:focus {
@@ -32,20 +34,20 @@
     transition: all 0.5s ease;
     &:hover,
     &:focus {
-      color: #29a19c !important;
+      color: $secondary-color !important;
       transition: color 0.3s ease-in-out;
     }
     .button {
-      color: #29a19c;
-      border-color: #29a19c;
+      color: $secondary-color;
+      border-color: $secondary-color;
       &:hover,
       &:focus,
       &:active {
         outline: none !important;
         box-shadow: none !important;
         background-color: transparent !important;
-        color: #63c9c6 !important;
-        border-color: #63c9c6 !important;
+        color: $primary-color !important;
+        border-color: $primary-color !important;
         transition: all 0.3 ease-in-out;
       }
     }
@@ -62,7 +64,7 @@
     color: black !important;
     transition: all 0.5s ease;
     &:hover {
-      color: #29a19c !important;
+      color: $primary-color !important;
       transition: color 0.3s ease;
     }
   }
