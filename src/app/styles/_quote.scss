@@ -17,6 +17,7 @@
       flex-direction: column;
       align-items: center;
       color: white;
+      justify-content: center;
       p {
         text-align: center;
         font-size: 40px;
@@ -25,6 +26,7 @@
       span {
         font-family: "Rubik", sans-serif;
         font-size: 23px;
+        text-align: center;
       }
     }
   }
