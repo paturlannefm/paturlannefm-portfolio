@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Timeline from "./Timeline";
+const Fade = require("react-reveal/Fade");
 
 const WorkExperience = () => {
   return (
@@ -9,7 +10,9 @@ const WorkExperience = () => {
       className="main-div"
     >
       <section className="div-2 work">
-        <h1 className="mb-4 heading">Work Experience</h1>
+        <Fade left>
+          <h1 className="mb-4 heading">Work Experience</h1>
+        </Fade>
         <Timeline />
       </section>
     </div>

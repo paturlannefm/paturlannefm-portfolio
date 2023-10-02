@@ -1,4 +1,5 @@
 import React from "react";
+const Fade = require("react-reveal/Fade");
 import CardComponent from "./Card";
 import Pro1 from "../../../public/img/project-1.jpg";
 import Pro2 from "../../../public/img/project-2.jpg";
@@ -13,25 +14,27 @@ const Projects = () => {
       className="main-div"
       id="project"
     >
-      <section className="div-1">
-        <h1 className="heading">Some of my recent works..</h1>
-        <div>
-          {ProjectData.map((data, ind) => {
-            const { github, external, img, title, text, skills } = data;
-            return (
-              <CardComponent
-                key={ind}
-                github={github}
-                external={external}
-                img={img}
-                title={title}
-                text={text}
-                skills={skills}
-              />
-            );
-          })}
-        </div>
-      </section>
+      <Fade left cascade>
+        <section className="div-1">
+          <h1 className="heading">Some of my recent works..</h1>
+          <div>
+            {ProjectData.map((data, ind) => {
+              const { github, external, img, title, text, skills } = data;
+              return (
+                <CardComponent
+                  key={ind}
+                  github={github}
+                  external={external}
+                  img={img}
+                  title={title}
+                  text={text}
+                  skills={skills}
+                />
+              );
+            })}
+          </div>
+        </section>
+      </Fade>
     </div>
   );
 };
