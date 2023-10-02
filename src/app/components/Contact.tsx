@@ -1,12 +1,10 @@
-import React from "react";
-const Fade = require("react-reveal/Fade");
-
+import { Fade } from "react-awesome-reveal";
 const Contact = () => {
   return (
     <div className="contact-div" id="contact">
       <div className="head mx-5">
         <div className="main-div">
-          <Fade top cascade>
+          <Fade direction="up" cascade>
             <section className="div-1 contact">
               <h1 className="my-3 heading" style={{ textAlign: "center" }}>
                 Get In Touch

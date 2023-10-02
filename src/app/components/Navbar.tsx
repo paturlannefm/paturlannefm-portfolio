@@ -1,24 +1,26 @@
 "use client";
 
-import React from "react";
 import { Nav, Navbar, Button } from "react-bootstrap";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const NavbarComponent = () => {
-  const changeBackground = () => {
-    let header = document.getElementsByClassName("header-nav")[0];
-    if (window.scrollY < 200) {
-      header.classList.remove("sticky");
-    } else {
-      header.classList.add("sticky");
-    }
-  };
+  if (typeof window !== "undefined") {
+    // Tu código que depende de window aquí
+    const changeBackground = () => {
+      let header = document.getElementsByClassName("header-nav")[0];
+      if (window.scrollY < 200) {
+        header.classList.remove("sticky");
+      } else {
+        header.classList.add("sticky");
+      }
+    };
 
-  window.addEventListener("scroll", changeBackground);
+    window.addEventListener("scroll", changeBackground);
+  }
   return (
     <>
       <Navbar className="header-nav" fixed="top" collapseOnSelect expand="lg">
-        <Fade left cascade>
+        <Fade direction="left" cascade>
           <Navbar.Brand href="#home" className="brand-name ms-5">
             Franco.
           </Navbar.Brand>
@@ -26,7 +28,7 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-5 ms-auto">
-            <Fade right cascade>
+            <Fade direction="right" cascade>
               <Nav.Link className="px-3" href="#home">
                 Home
               </Nav.Link>

@@ -1,15 +1,14 @@
-import React from "react";
 import data from "./work.json";
 import { Container, Row, Col } from "react-bootstrap";
 import WorkIcon from "@mui/icons-material/Work";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const Timeline = () => {
   return (
     <Container>
       <Row>
         <Col>
-          <Fade left big cascade>
+          <Fade direction="left" cascade>
             <ul className="timeline">
               {data.map((item: any) => {
                 return (

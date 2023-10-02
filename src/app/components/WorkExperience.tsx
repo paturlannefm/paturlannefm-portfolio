@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Timeline from "./Timeline";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const WorkExperience = () => {
   return (
@@ -10,7 +10,7 @@ const WorkExperience = () => {
       className="main-div"
     >
       <section className="div-2 work">
-        <Fade left>
+        <Fade direction="left">
           <h1 className="mb-4 heading">Work Experience</h1>
         </Fade>
         <Timeline />

@@ -1,14 +1,13 @@
 "use client";
 
-import React from "react";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const Quote = () => {
   return (
     <div className="quote-div">
       <div className="head mx-5">
         <div className="main-div">
-          <Fade top cascade>
+          <Fade direction="up" cascade>
             <section className="div-1 quote">
               <p className="my-3">
                 “ The best way to predict the future is to create it. ”

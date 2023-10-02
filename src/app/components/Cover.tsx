@@ -1,20 +1,19 @@
 "use client";
 
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const Cover = () => {
   return (
     <div className="bg-div" id="home">
       <div className="head mx-5">
         <div className="head-div mx-auto main-div">
-          <Fade top cascade>
+          <Fade direction="up" cascade>
             <section className="div-1">
               <h1 className="my-1 head-div-first-text">Hi, my name is</h1>
               <h1 className="head-div-second-text">
@@ -32,7 +31,7 @@ const Cover = () => {
           </Fade>
         </div>
       </div>
-      <Fade bottom>
+      <Fade direction="down">
         <span className="scroll-btn">
           <a href="#home">
             <span className="mouse">
@@ -42,7 +41,7 @@ const Cover = () => {
         </span>
       </Fade>
       <div className="social-media">
-        <Fade left cascade>
+        <Fade direction="left" cascade>
           <ul className="social-media-list">
             {SocialData.map((data, ind) => {
               return (

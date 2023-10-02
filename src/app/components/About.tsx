@@ -1,5 +1,4 @@
-import React from "react";
-const Fade = require("react-reveal/Fade");
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
       className="main-div"
       id="about"
     >
-      <Fade left cascade>
+      <Fade direction={"left"} cascade>
         <section className="div-1 about">
           <h1 className="heading">About Me</h1>
           <div>
