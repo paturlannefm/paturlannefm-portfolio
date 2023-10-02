@@ -4,6 +4,7 @@ import Cover from "../components/Cover";
 import NavbarComponent from "../components/Navbar";
 import About from "../components/About";
 import WorkExperience from "../components/WorkExperience";
+import Quote from "../components/Quote";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Cover />
         <About />
         <WorkExperience />
+        <Quote />
 
         {/*
       <Navbar/>
