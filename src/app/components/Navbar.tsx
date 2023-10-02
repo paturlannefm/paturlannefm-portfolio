@@ -28,7 +28,7 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-5 ms-auto">
-            <Fade direction="right" cascade>
+            <Fade direction="right">
               <Nav.Link className="px-3" href="#home">
                 Home
               </Nav.Link>

@@ -35,7 +35,7 @@ const CardComponent = ({
             </a>
           </li>
         </ul>
-        <Image src={img} alt="image" priority />
+        <Image src={img} alt="image" className="img-card" priority />
         <div className="overlay"></div>
         <div className="con-text">
           <h2>{title}</h2>

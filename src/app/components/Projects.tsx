@@ -46,7 +46,7 @@ const ProjectData = [
     img: Pro1,
     skills: "Next.js, React.js, Typescript, Tailwind CSS",
     github: "https://github.com/paturlannefm/LaBancaria",
-    text: "Developed a web application for La Bancaria, allowing its members to access news, benefits, activities, and more. Users can easily stay updated on the latest information and offerings from La Bancaria through this platform.",
+    text: "Developed a web app for La Bancaria, enabling members to access news, benefits, activities, and updates easily.",
     external: "https://www.bancarialaplata.com.ar/",
   },
   {
@@ -72,7 +72,7 @@ const ProjectData = [
     img: Pro5,
     skills: "Wordpress",
     github: "https://adut.utn.edu.ar/saber/",
-    text: "Developed digital magazine aimed at disseminating original articles, literature reviews, and postgraduate thesis summaries within the fields of Engineering, Technology, and Education. This online publication, in collaboration with the Teacher Training and Professional Development Program, resides on the website of ADUT Seccional La Plata.",
+    text: "Developed an online magazine in collaboration with ADUT Seccional La Plata, featuring articles, literature reviews, and postgraduate thesis summaries in Engineering, Technology, and Education.",
     external: "https://adut.utn.edu.ar/saber/",
   },
   {
@@ -80,7 +80,7 @@ const ProjectData = [
     img: Pro4,
     skills: "React, Next.js, Tailwind, Typescript",
     github: "https://github.com/paturlannefm/dollar-calculator",
-    text: "Developed a currency conversion tool that enables users to calculate the USD value based on the entered ARS amount. What sets this application apart is its capability to analyze market trends through charts displaying weekly, monthly, and annual historical data for each type of dollar (blue, stock exchange, and official). This provides users with a comprehensive view of market evolution over time.",
+    text: "Developed a currency converter with advanced market trend analysis features, including weekly, monthly, and annual historical charts for various types of dollars (blue, stock exchange, official) to help users calculate USD values from ARS amounts.",
     external: "https://roshan0708.github.io/restaurant_management_system/",
   },
 ];

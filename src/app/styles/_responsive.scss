@@ -60,6 +60,15 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .bg-div .head-div-second-text,
+  .bg-div .head-div-third-text,
+  h1,
+  h2 {
+    font-size: 2.8em;
+  }
+  .bg-div .head-div-fourth-text {
+    font-size: 1.2em;
+  }
   .header-nav.sticky {
     .navbar-toggler {
       border-color: #000000 !important;
@@ -69,9 +78,25 @@
       }
     }
   }
+  .img-card {
+    width: 600px;
+    height: auto;
+  }
+  .card {
+    height: 340px;
+  }
 }
 
 @media only screen and (max-width: 769px) {
+  .bg-div .head-div-second-text,
+  .bg-div .head-div-third-text,
+  h1,
+  h2 {
+    font-size: 2.2em;
+  }
+  .bg-div .head-div-fourth-text {
+    font-size: 1.2em;
+  }
   .card {
     height: 300px;
   }
@@ -93,6 +118,10 @@
   .header-nav .brand-name,
   .header-nav .nav-link {
     color: black !important;
+  }
+  .img-card {
+    width: 400px;
+    height: auto;
   }
 }
 

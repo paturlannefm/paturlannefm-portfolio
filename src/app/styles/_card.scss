@@ -1,3 +1,8 @@
+.img-card {
+  width: 900px;
+  height: 500px;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -21,13 +26,6 @@
     opacity: 0;
     transition: 0.5s ease;
     background-color: rgba(99, 201, 198, 0.7);
-  }
-  img {
-    position: absolute;
-    height: 100% !important;
-    width: auto;
-    z-index: 0;
-    transition: all 0.5s ease;
   }
   .con-text {
     position: absolute;
