@@ -12,6 +12,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.14.11",
     "@mui/material": "^5.14.11",
     "@types/node": "20.6.0",
@@ -26,5 +27,8 @@
     "react-bootstrap": "^2.9.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.68.0"
   }
 }
