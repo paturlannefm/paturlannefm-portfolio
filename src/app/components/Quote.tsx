@@ -9,7 +9,7 @@ const Quote = () => {
         <div className="main-div">
           <Fade direction="up" cascade>
             <section className="div-1 quote">
-              <p className="my-3">
+              <p className="">
                 “ The best way to predict the future is to create it. ”
               </p>
               <span>

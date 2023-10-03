@@ -13,27 +13,25 @@ const Projects = () => {
       className="main-div"
       id="project"
     >
-      <Fade direction="left" cascade>
-        <section className="div-1">
-          <h1 className="heading">Some of my recent works..</h1>
-          <div>
-            {ProjectData.map((data, ind) => {
-              const { github, external, img, title, text, skills } = data;
-              return (
-                <CardComponent
-                  key={ind}
-                  github={github}
-                  external={external}
-                  img={img}
-                  title={title}
-                  text={text}
-                  skills={skills}
-                />
-              );
-            })}
-          </div>
-        </section>
-      </Fade>
+      <section className="div-1">
+        <h1 className="heading">Some of my recent works..</h1>
+        <div>
+          {ProjectData.map((data, ind) => {
+            const { github, external, img, title, text, skills } = data;
+            return (
+              <CardComponent
+                key={ind}
+                github={github}
+                external={external}
+                img={img}
+                title={title}
+                text={text}
+                skills={skills}
+              />
+            );
+          })}
+        </div>
+      </section>
     </div>
   );
 };
@@ -42,7 +40,7 @@ export default Projects;
 
 const ProjectData = [
   {
-    title: "La Bancaria Seccional La Plata",
+    title: "La Bancaria",
     img: Pro1,
     skills: "Next.js, React.js, Typescript, Tailwind CSS",
     github: "https://github.com/paturlannefm/LaBancaria",

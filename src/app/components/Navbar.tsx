@@ -5,7 +5,6 @@ import { Fade } from "react-awesome-reveal";
 
 const NavbarComponent = () => {
   if (typeof window !== "undefined") {
-    // Tu código que depende de window aquí
     const changeBackground = () => {
       let header = document.getElementsByClassName("header-nav")[0];
       if (window.scrollY < 200) {

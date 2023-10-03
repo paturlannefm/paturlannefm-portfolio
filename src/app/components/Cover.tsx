@@ -11,8 +11,8 @@ import { Fade } from "react-awesome-reveal";
 const Cover = () => {
   return (
     <div className="bg-div" id="home">
-      <div className="head mx-5">
-        <div className="head-div mx-auto main-div">
+      <div className="head mx-4">
+        <div className="head-div main-div">
           <Fade direction="up" cascade>
             <section className="div-1">
               <h1 className="my-1 head-div-first-text">Hi, my name is</h1>
@@ -41,24 +41,22 @@ const Cover = () => {
         </span>
       </Fade>
       <div className="social-media">
-        <Fade direction="left" cascade>
-          <ul className="social-media-list">
-            {SocialData.map((data, ind) => {
-              return (
-                <li key={ind}>
-                  <a
-                    className="social-media-list-link"
-                    href={data.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FontAwesomeIcon icon={data.icon} className="media-icons" />
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </Fade>
+        <ul className="social-media-list">
+          {SocialData.map((data, ind) => {
+            return (
+              <li key={ind}>
+                <a
+                  className="social-media-list-link"
+                  href={data.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={data.icon} className="media-icons" />
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );
